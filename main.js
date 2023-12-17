@@ -14,13 +14,13 @@ const container = document.querySelector('div:nth-child(1)');
         function changePage(value){                
                 container.classList.remove('day-time', 'night-time', 'container');
     
-                if(value == 'Day Time'){
+                if(value == 'Day Shift'){
                     container.classList.add('day-time');
                     h2.textContent = "I Build Softwares 😎";
                     footer.textContent = 'Build with ❤️';
 
                 }
-                else if(value == 'Night Time'){
+                else if(value == 'Night Shift'){
                     container.classList.add('night-time');
                     h2.textContent = "I Break Softwares😈";
                     footer.textContent = 'Build with 💙';
